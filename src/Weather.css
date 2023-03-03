@@ -1,0 +1,10 @@
+.weather ul {
+  text-transform: capitalize;
+}
+.weather .desc {
+  list-style-type: none;
+}
+.weather #btn-submit:hover {
+  background-color: rgb(89, 88, 88);
+  cursor: grab;
+}
