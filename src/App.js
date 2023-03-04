@@ -5,11 +5,26 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
+      <div className="container">
         <Weather />
-      </header>
+        <footer>
+          <a
+            href="https://github.com/haleytoye/weather-react-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code{" "}
+          </a>
+          by{" "}
+          <a
+            href="https://www.shecodes.io/graduates/53070-haley-toye"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Haley Toye{" "}
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
